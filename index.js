@@ -17,11 +17,11 @@ app.get(`/gender`,function(req,res) {
                 res.send(err)
             })
         } else {
-            res.send('enter name in url')
+            res.send('please...enter name in url ')
         }
 
 })
 
 app.listen(port,function() {
-    console.log('listening port:',port)
+    console.log('we are listening port:',port)
 })
